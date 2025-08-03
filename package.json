@@ -4,6 +4,11 @@
   "description": "A robust, configurable memoization cache for async/sync functions.",
   "main": "dist/memoize.js",
   "types": "dist/memoize.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faiz395/fast-memo-.git"
+  },
+  "keywords": ["memoization", "cache", "performance", "async", "sync"],
   "files": ["dist"],
   "scripts": {
     "build": "tsc",
