@@ -1,0 +1,18 @@
+{
+  "name": "fast-memo",
+  "version": "1.0.0",
+  "description": "A robust, configurable memoization cache for async/sync functions.",
+  "main": "dist/memoize.js",
+  "types": "dist/memoize.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faiz",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
